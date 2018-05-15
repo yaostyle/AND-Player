@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_height">88dp</dimen>
+    <dimen name="primary_text_size">18sp</dimen>
+    <dimen name="album_thumb_img_size">78dp</dimen>
+</resources>

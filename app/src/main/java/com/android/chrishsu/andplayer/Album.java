@@ -15,12 +15,12 @@ public class Album {
     }
 
     // Gettter for name
-    public String getName() {
+    public String getAlbumName() {
         return this.mName;
     }
 
     // Getter for artist
-    public String getArtist() {
+    public String getArtistName() {
         return this.mArtist;
     }
 
