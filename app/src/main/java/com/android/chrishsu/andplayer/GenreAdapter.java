@@ -10,14 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
-public class AlbumAdapter extends ArrayAdapter<Album>{
+public class GenreAdapter extends ArrayAdapter<Genre>{
 
-    public AlbumAdapter(@NonNull Context context, ArrayList<Album> albums) {
-        super(context, 0, albums);
+
+    public GenreAdapter(@NonNull Context context, ArrayList<Genre> genres) {
+        super(context, 0, genres);
     }
 
     @NonNull
@@ -29,13 +28,13 @@ public class AlbumAdapter extends ArrayAdapter<Album>{
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
-        Album currentAlbum = getItem(position);
+        Genre currentGenre = getItem(position);
 
         TextView albumName = (TextView) listItemView.findViewById(R.id.album_name);
-        albumName.setText(currentAlbum.getAlbumName());
+        albumName.setText(currentGenre.getGenreName());
 
         ImageView albumImage = (ImageView) listItemView.findViewById(R.id.album_image);
-        albumImage.setImageResource(currentAlbum.getImageId());
+        albumImage.setImageResource(currentGenre.getImageId());
 
         return listItemView;
 
