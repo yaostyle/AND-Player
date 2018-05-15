@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 public class GenreAdapter extends ArrayAdapter<Genre>{
 
-
     public GenreAdapter(@NonNull Context context, ArrayList<Genre> genres) {
         super(context, 0, genres);
     }

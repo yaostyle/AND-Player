@@ -5,4 +5,5 @@
     <dimen name="artist_name_size">14dp</dimen>
     <dimen name="album_thumb_img_size">78dp</dimen>
     <dimen name="arrow_size">14dp</dimen>
+    <dimen name="collection_title_text_size">68sp</dimen>
 </resources>
