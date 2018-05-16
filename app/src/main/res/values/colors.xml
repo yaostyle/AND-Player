@@ -6,4 +6,5 @@
     <color name="albumBackground">#3f3f3f</color>
     <color name="albumDividerColor">#666666</color>
     <color name="artistNameColor">#8c8c8c</color>
+    <color name="songColor">#cccccc</color>
 </resources>

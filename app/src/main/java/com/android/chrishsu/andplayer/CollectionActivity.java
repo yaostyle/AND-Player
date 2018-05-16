@@ -6,6 +6,7 @@ import android.graphics.PorterDuff;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -29,6 +30,16 @@ public class CollectionActivity extends AppCompatActivity {
 
         TextView colct_textview = (TextView) findViewById(R.id.colct_cover_title);
         colct_textview.setText(collection_title);
+
+
+        final ArrayList<Song> songs = new ArrayList<Song>();
+        songs.add(new Song("Yes Indeed", "Lil Baby, Drake", "Yes Indeed", "2:22"));
+
+
+        SongAdapter adapter = new SongAdapter(this, songs);
+        ListView listView = (ListView) findViewById(R.id.song_list);
+        listView.setAdapter(adapter);
+
 
     }
 

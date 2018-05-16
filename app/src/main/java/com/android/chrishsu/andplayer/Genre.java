@@ -6,13 +6,13 @@ public class Genre {
     private int mImageId;
     private int mCoverImageId;
 
-    // Album 1st constructors to take 2 params: name, imageId
+    // Genre 1st constructors to take 2 params: name, imageId
     public Genre (String name, int imageId) {
         this.mGenreName = name;
         this.mImageId = imageId;
     }
 
-    // Album 2nd constructors to take 3 params: name, imageId, coverImageId
+    // Genre 2nd constructors to take 3 params: name, imageId, coverImageId
     public Genre (String name, int imageId, int coverImageId) {
         this.mGenreName = name;
         this.mImageId = imageId;
