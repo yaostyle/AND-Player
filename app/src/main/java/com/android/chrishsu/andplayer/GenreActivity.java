@@ -40,7 +40,7 @@ public class GenreActivity extends AppCompatActivity {
                 R.mipmap.genre_cover_elec));
 
         GenreAdapter adapter = new GenreAdapter(this, genres);
-        ListView listView = (ListView) findViewById(R.id.list);
+        final ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

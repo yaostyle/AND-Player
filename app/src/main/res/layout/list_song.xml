@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:minHeight="@dimen/list_height"
-    android:padding="12dp"
+    android:minHeight="@dimen/song_list_height"
+    android:padding="8dp"
     android:background="@color/albumBackground">
 
     <ImageView
@@ -33,6 +33,7 @@
         android:textStyle="bold"
         android:textColor="@color/songColor"
         android:textAlignment="center"
+        android:textSize="@dimen/song_small_text_size"
         android:layout_gravity="center"/>
 
     <TextView
@@ -42,6 +43,7 @@
         android:layout_weight="2"
         android:textColor="@color/songColor"
         android:textAlignment="center"
+        android:textSize="@dimen/song_small_text_size"
         android:layout_gravity="center"/>
 
     <TextView
@@ -51,6 +53,7 @@
         android:layout_weight="1"
         android:textColor="@color/songColor"
         android:textAlignment="center"
+        android:textSize="@dimen/song_small_text_size"
         android:layout_gravity="center"/>
 
 

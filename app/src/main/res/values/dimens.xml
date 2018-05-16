@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="list_height">78dp</dimen>
+    <dimen name="song_list_height">60dp</dimen>
+    <dimen name="song_title_text_size">16sp</dimen>
+
     <dimen name="primary_text_size">18sp</dimen>
-    <dimen name="artist_name_size">14dp</dimen>
+    <dimen name="song_primary_text_size">12sp</dimen>
+    <dimen name="song_small_text_size">10sp</dimen>
     <dimen name="album_thumb_img_size">78dp</dimen>
     <dimen name="arrow_size">14dp</dimen>
+
     <dimen name="collection_title_text_size">68sp</dimen>
-    <dimen name="song_title_text_size">20dp</dimen>
+
 </resources>
