@@ -24,6 +24,9 @@ import java.util.Set;
 public class CollectionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Adding back button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collection);
 
@@ -71,7 +74,6 @@ public class CollectionActivity extends AppCompatActivity {
         } else if (collection_title.equals("Electronic")) {
             electronicSongsInit();
         }
-
     }
 
     /*
