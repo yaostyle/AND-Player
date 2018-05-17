@@ -62,21 +62,21 @@
             android:layout_height="match_parent"
             android:layout_weight="4"
             android:scaleType="center"
-            android:src="@drawable/ic_frw"/>
+            android:src="@mipmap/ic_frw"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="center"
-            android:src="@drawable/ic_play"/>
+            android:src="@mipmap/ic_play"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="4"
             android:scaleType="center"
-            android:src="@drawable/ic_ff"/>
+            android:src="@mipmap/ic_ff"/>
 
     </LinearLayout>
 

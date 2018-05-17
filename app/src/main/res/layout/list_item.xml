@@ -30,6 +30,6 @@
         android:layout_height="@dimen/arrow_size"
         android:layout_weight="1"
         android:layout_gravity="center"
-        android:src="@drawable/ic_arrow"/>
+        android:src="@mipmap/ic_arrow"/>
 
 </LinearLayout>
