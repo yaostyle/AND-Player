@@ -1,18 +1,12 @@
 package com.android.chrishsu.andplayer;
-/* Genre Class to store albums' information */
+/* Genre Class to store genre' information */
 public class Genre {
     // Init Vars
     private String mGenreName;
     private int mImageId;
     private int mCoverImageId;
 
-    // Genre 1st constructors to take 2 params: name, imageId
-    public Genre (String name, int imageId) {
-        this.mGenreName = name;
-        this.mImageId = imageId;
-    }
-
-    // Genre 2nd constructors to take 3 params: name, imageId, coverImageId
+    // Genre constructors to take 3 params: name, imageId, coverImageId
     public Genre (String name, int imageId, int coverImageId) {
         this.mGenreName = name;
         this.mImageId = imageId;

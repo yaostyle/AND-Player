@@ -1,5 +1,7 @@
 package com.android.chrishsu.andplayer;
-
+/*
+    Song class to store song info
+ */
 public class Song {
     // Init Vars
     private String mSongTitle;
